@@ -104,10 +104,3 @@ From `sample_outputs/` (TPC-H, $\alpha=0.10$, $n_{\mathrm{test}}=500$ queries):
 
 PR-CP certifies plan-regret ≤ **1.53× of oracle** with 91.4% empirical coverage at α=0.10 on TPC-H, and **1.99×** with 95.0% coverage on TPC-DS.
 
-## License
-
-MIT. See `LICENSE`.
-
-## Citation
-
-To be added after the paper is published (anonymous for the review period).
