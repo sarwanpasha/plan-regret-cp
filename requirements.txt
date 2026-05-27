@@ -1,0 +1,20 @@
+# Plan-Regret Conformal Prediction — dependencies
+
+# Database engine (also generates TPC-H and TPC-DS via built-in extensions)
+duckdb>=0.10.0
+
+# Numerics and data handling
+numpy>=1.22
+pandas>=1.4
+
+# Base estimator (MSCN-style neural network)
+torch>=2.0
+
+# Locally-weighted CP difficulty model (T2 baseline)
+xgboost>=1.7
+
+# Quantile regression for CQR baseline -- shipped with torch
+# (no additional packages needed)
+
+# Only used during analysis / not at runtime
+scikit-learn>=1.1
